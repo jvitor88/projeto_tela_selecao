@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@font-face {
+  font-family: lol;
+  src: url(../font/LeagueFont.otf);
+}
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-image: url(../image/FUNDO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cabecalho {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+#main{
+  color: #E5C878;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  min-height: calc(100vh-152px);
+}
+#champ_select #lista_champ{
+  width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+#champ_select h1{
+  display: flex;
+  justify-content: center;
+  font-family: lol;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #E5C878;
+}
+.champions{
+  box-shadow: 0px 0px 5px 5px #000000;
+}
+#card_champ{
+  width: 600px;
+  text-align: center;
+  background-color: #00000042;
+  box-shadow: 0px 0px 5px 5px #0000002f;
+  border-radius: 15px;
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 1000;
+}
+#card_champ > h2{
+  font-family: lol;
+  font-size: 40px;
+  margin: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #E5C878;
+}
+footer{
+  padding: 50px;
+  color: #E5C878;;
+  background-color: #00000042;
+  font-family: lol;
+  font-size: 10px;
+  text-align: center;
+}
+footer a{
+  color: #E5C878;;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: brown;
+}
