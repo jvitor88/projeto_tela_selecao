@@ -1,7 +1,7 @@
 const champions = document.querySelectorAll('.champions');
 champions.forEach(champion => {
   champion.addEventListener('mouseenter', () =>{
-    if (window.innerWidth > 450){
+    if (window.innerWidth < 700){
       window.scrollTo({top: 0, behavior: 'smooth'});
     }
     const championselecionado = document.querySelector('.selecionado');
