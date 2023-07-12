@@ -17,28 +17,55 @@
     <section id="champ_select">
       <h1>Selecione um Personagem</h1>
       <ul id="lista_champ">
-        <li class="champions" id="ahri"><img src="src/image/ahri.png" alt="Foto personagem Ahri"></li>
-        <li class="champions" id="ashe"><img src="src/image/ashe.png" alt="Foto personagem Ashe"></li>
-        <li class="champions" id="blitz"><img src="src/image/blitz.png" alt="Foto personagem Blitz"></li>
-        <li class="champions" id="garen"><img src="src/image/garen.png" alt="Foto personagem Garen"></li>
-        <li class="champions" id="irelia"><img src="src/image/irelia.png" alt="Foto personagem Irelia"></li>
-        <li class="champions" id="jayce"><img src="src/image/jayce.png" alt="Foto personagem Jayce"></li>
-        <li class="champions" id="jinx"><img src="src/image/jinx.png" alt="Foto personagem Jinx"></li>
-        <li class="champions" id="lux"><img src="src/image/lux.png" alt="Foto personagem Lux"></li>
-        <li class="champions" id="miss"><img src="src/image/miss.png" alt="Foto personagem Miss Fortune"></li>
-        <li class="champions" id="riven"><img src="src/image/riven.png" alt="Foto personagem Riven"></li>
-        <li class="champions" id="zed"><img src="src/image/zed.png" alt="Foto personagem Zed"></li>
-        <li class="champions" id="ziggs"><img src="src/image/ziggs.png" alt="Foto personagem Ziggs"></li>
+        <li class="champions selecionado" id="ahri" data-description="Ela é uma vastaya com traços de raposa, capaz de manipular as emoções de sua presa e consumir sua essência.">
+          <img src="src/image/ahri.png" alt="Foto personagem Ahri">
+        </li>
+        <li class="champions" id="ashe" data-description="A mãe de guerra Glacinata da tribo de Avarosa, Ashe comanda a horda mais populosa do norte.">
+          <img src="src/image/ashe.png" alt="Foto personagem Ashe">
+        </li>
+        <li class="champions" id="blitzcrank" data-description="Blitzcrank é um autômato enorme e praticamente indestrutível de Zaun, construído para lidar com lixo tóxico.">
+          <img src="src/image/blitzcrank.png" alt="Foto personagem Blitz">
+        </li>
+        <li class="champions" id="garen" data-description="Garen faz parte da Vanguarda Destemida, ele é encarregado de defender Demacia e seus ideais.">
+          <img src="src/image/garen.png" alt="Foto personagem Garen">
+        </li>
+        <li class="champions" id="irelia" data-description="A ocupação noxiana de Ionia produziu muitos heróis, nenhum mais improvável do que a jovem Irelia de Navori.">
+          <img src="src/image/irelia.png" alt="Foto personagem Irelia">
+        </li>
+        <li class="champions" id="jayce" data-description="Jayce é um brilhante inventor que dedicou sua vida a defender Piltover e sua implacável busca pelo progresso.">
+          <img src="src/image/jayce.png" alt="Foto personagem Jayce">
+        </li>
+        <li class="champions" id="jinx" data-description="Uma criminosa impulsiva e maníaca de Zaun, Jinx vive para disseminar o caos sem se preocupar com as consequências.
+        ">
+          <img src="src/image/jinx.png" alt="Foto personagem Jinx">
+        </li>
+        <li class="champions" id="lux" data-description="Lux nasceu em Demacia, um reino insular onde habilidades mágicas são vistas com medo e desconfiança.">
+          <img src="src/image/lux.png" alt="Foto personagem Lux">
+        </li>
+        <li class="champions" id="miss fortune" data-description="Uma capitã famosa por sua aparência e impiedade, Sarah chama atenção entre os criminosos de Águas de Sentina">
+          <img src="src/image/miss fortune.png" alt="Foto personagem Miss Fortune">
+        </li>
+        <li class="champions" id="riven" data-description="A mestra de espadas Riven é uma expatriada em uma terra que um dia já tentou conquistar.">
+          <img src="src/image/riven.png" alt="Foto personagem Riven">
+        </li>
+        <li class="champions" id="zed" data-description="Zed é o líder da Ordem das Sombras,  criada com a intenção de militarizar as tradições marciais e mágicas de Ionia.">
+          <img src="src/image/zed.png" alt="Foto personagem Zed">
+        </li>
+        <li class="champions" id="ziggs" data-description="O yordle Ziggs, amante de grandes bombas e pavios curtos, é uma força explosiva da natureza. 
+        ">
+          <img src="src/image/ziggs.png" alt="Foto personagem Ziggs">
+        </li>
       </ul>
     </section>
-    <section id="card_champ">
-      <img src="src/image/ahri2.png" alt="Foto do Personagem Selecionado">
-      <h2>Ahri</h2>
-      <p>A ligação de Ahri com a magia do mundo espiritual é inata. Ela é uma vastaya com traços de raposa, capaz de manipular as emoções de sua presa e consumir sua essência.</p>
+    <section class="card_champ">
+      <img class="champgrande" src="src/image/ahri2.png" alt="Foto do Personagem Selecionado">
+      <h2 id="nome_champ">Ahri</h2>
+      <p id="desc_champ">A ligação de Ahri com a magia do mundo espiritual é inata. Ela é uma vastaya com traços de raposa, capaz de manipular as emoções de sua presa e consumir sua essência.</p>
     </section>
   </main>
   <footer>
     <h3>Desenvolvido por <a href="https://www.linkedin.com/in/jose-silveira-ti/" target="_blank">José Vitor Silveira</a></h3>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,68 @@
+@media (max-width: 1203px){
+  .cabecalho img{
+    max-width: 330px;
+    margin: 15px auto;
+  }
+  #main{
+    flex-direction: column-reverse;
+    max-width: 500px;
+    margin: 0 auto;
+  }   
+}
+@media (max-width: 600px){
+  #cabecalho img{
+    max-width: 330px;
+    margin: 8px;
+  }
+  #main{
+    flex-direction: column-reverse;
+    max-width: 430px;
+    margin: 0 auto;
+  }   
+  .card_champ img{
+    max-width: 280px
+  }
+  .card_champ{
+    max-width: 350px
+  }
+  #champ_select h1{
+    font-size: 15px;
+    width: auto;
+  }
+  #champ_select #lista_champ{
+    gap: 9px;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  #nome_champ{
+    font-size: 30px;
+  }
+  #desc_champ{
+    font-size: 15px;
+  }
+  .champions{
+    height: 110px;
+  }
+  .champions img{
+    width: 110px;
+    margin: 0 auto;
+  }
+  footer{
+    max-width: 375px;
+    font-size: 10px
+  }
+}
+@media (max-width: 365px){
+  .champions img{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .champions{
+    height: 100px;
+  }
+  #champ_select #lista_champ{
+    max-width: 320px;
+  }
+
+}
