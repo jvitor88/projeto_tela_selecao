@@ -24,7 +24,6 @@ body{
   color: #E5C878;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 70px;
   min-height: calc(100vh-152px);
 }
